@@ -10,7 +10,7 @@ DBPath: "./ip2region.db" # https://github.com/lionsoul2014/ip2region/blob/master
 
 Restful API:
 ``` 
-
+GET /ip_search?ip=1.1.1.1
 ```
 
 GRPC API:
