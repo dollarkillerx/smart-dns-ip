@@ -1,0 +1,4 @@
+RestfulAddr: "0.0.0.0:8086"
+GRPCAddr: "0.0.0.0:8087"
+Debug: true
+DBPath: "./ip2region.db" # https://github.com/lionsoul2014/ip2region/blob/master/data/ip2region.db

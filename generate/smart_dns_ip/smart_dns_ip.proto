@@ -1,0 +1,19 @@
+syntax = "proto3";
+package smart_dns_ip;
+option go_package = ".;generate";
+
+message IPSearchRequest {
+  string ip = 1;
+}
+
+message IPSearchResponse {
+  int64 cityId = 1;
+  string country = 2;
+  string region = 3;
+  string city = 4;
+  string isp = 5;
+}
+
+service IPSearch {
+  rpc IPSearch(IPSearchRequest) returns (IPSearchResponse);
+}
